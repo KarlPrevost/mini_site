@@ -1,0 +1,605 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+body {
+    background-color: #F5F5F5; 
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* style menu */
+header {
+    background-color: black;
+    padding: 7px 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+header a, .menu a, .expert-marketing-positions a, .visiter-cv a, .formations a  {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+header a:hover, .menu a:hover, .expert-marketing-positions a:hover, .visiter-cv a:hover, .formations a:hover {
+    color:#D4D4D4;
+}
+
+.menu {
+    display: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin-top: 15px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.menu a {
+    display: block;
+    border-top: 1px solid #F5F5F5;
+}
+
+label {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#toggle:checked + .menu {
+    display: block;
+
+}
+
+#toggle {
+    display: none;
+}
+
+.logo-index-web {
+    display: none;
+}
+
+.index-fond-web {
+    display: none;
+}
+
+.photo-index1 {
+    display: block;
+    width: 100%; max-width: 1000px;
+    margin: 0 auto;
+}
+
+.photo-index2
+ {
+    width: 100%;  max-width: 300px
+}
+
+ /* style de la 1ère image */
+.expert-marketing {
+    background-image: url("images/index-fond-mobile.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 100;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.expert-marketing-positions {
+    color: white;
+  position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+      font-style: italic;
+}
+
+.expert-marketing-positions a {
+    background-color:  rgb(0, 0, 0);
+    padding: 10px;
+    font-style: normal;
+    border: 1px solid white;
+}
+
+.expert-marketing-positions span {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+      font-style: normal;
+}
+ /* style du cv */
+.visiter-cv {
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.visiter-cv a {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+ /* style de la 2ème image */
+.formations {
+    background-image: url("images/entreprise1.jpg");
+    background-size: cover;
+    width: 100; max-width: 1200px;
+    height: auto; min-height: 300px;
+    margin: auto;
+    padding: 10px;
+    background-position: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.formations-positions {
+    color: white;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.formations-positions2 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid white;
+}
+
+/* style temoins */
+.temoins-container {
+    display: none;   
+}
+.temoins-intro {
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.temoins {
+    background-image: url("images/marie-durand.jpg");
+    background-size: cover;
+    width: 100; max-width: 375px;
+    height: 375px;
+    margin: auto;
+    background-position: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.temoins-position {
+    color: white;
+    font-weight: 510;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-align: right;
+}
+
+.temoins-position :last-child {
+    color:lightgrey;
+}
+
+.temoins2 {
+    background-image: url("images/bernard-dupont.jpg");
+    background-size: cover;
+    width: 100; max-width: 375px;
+    height: 375px;
+    margin: auto;
+    background-position: center;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.temoins2-position {
+    color: white;
+    font-weight: 510;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-align: right;
+}
+
+.temoins2-position :last-child {
+    color:lightgrey;
+}
+
+.temoins-text {
+    color: white;
+    position: absolute;
+    top: 190px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0px;
+    padding: 5px;
+}
+
+/* style contact */
+.contact-image {
+    background-image: url("images/kevin-richard-contact.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    font-size: 3em;
+    font-weight: 600;
+    color: #F5F5F5;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.contact-image h1 {
+    margin-top: 280px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+  
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: grey;
+}
+
+.container-contact a:hover {
+    color: #ABABAB;
+}
+
+.contact-left {
+    padding: 20px;
+    width: 700px;
+}
+
+.contact-right {
+    width: 700px;
+    padding: 20px;
+}
+
+form {
+    width: 90%; max-width: 600px;
+}
+
+form input {
+    height: 30px;
+    width: 100%; max-width: 600px;
+}
+
+textarea {
+    resize: none;
+    height: 250px;
+    width: 100%; max-width: 600px;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px 0;
+    outline: none;
+    border: 2px solid lightgrey;
+    background-color: #F5F5F5;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.contact-button {
+    cursor: pointer;
+    background-color: #F5F5F5;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.contact-button:hover {
+    background-color: lightgrey;
+    transition: 0.5s;
+}
+
+.contact-button:active {
+    padding: 3px;
+    transition: none;
+}
+
+/* style a propos */
+.a-propos-image {
+    background-image: url("images/kevin-richard-a-propos2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    font-size: 3em;
+    font-weight: 600;
+    color: #F5F5F5;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.a-propos-image h1 {
+    margin-top: 280px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.container-a-propos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container-a-propos h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-a-propos p {
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.container-a-propos ul {
+    list-style-image: url("images/flamant-rose.png");
+    font-size: 1.6em;
+    color: pink;
+    overflow: hidden;
+}
+
+.container-a-propos li {
+    padding: 10px;
+}
+
+/* style programmes */
+.programme-banniere {
+    background-image: url("images/banniere-formation2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    font-size: 3em;
+    font-weight: 600;
+    color: #F5F5F5;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.intro-formation {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.intro-formation p {
+    margin-bottom: 20px;
+}
+.formation-video {
+    width: 95%;
+    height: 45%;
+}
+
+.payer-link {
+    display: inline-block;
+    margin: 50px 0;
+    padding: 15px 20px;;
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+.payer-link:hover {
+    font-size: 8rem;
+}
+
+ /* style de la page format web */
+@media screen and (min-width: 800px) {
+
+    label {
+        font-size: 25px;
+        display: none;
+    }
+    
+    #toggle {
+        display: none;
+    }
+
+    .menu a {
+        display: inline-block;
+    }
+    .menu {
+        display: inline-block;
+    }
+
+    .logo-index-mobile {
+        display: none;
+    }
+
+    .logo-index-web {
+        display: inline-block;
+    }
+
+    .expert-marketing {
+        background-image: url("images/index-fond-web.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right top;
+        position: relative;
+        width: 100%;
+        height: 800px;
+    }
+
+    .expert-marketing-positions {
+        all: initial;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        color: black;
+        text-align: left;
+        position: absolute;
+        top: 300px;
+        right: 200px;
+        min-width: 300px;
+        max-width: 600px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid black;
+        padding: 15px 15px 20px 15px;
+        font-size: 1.5em;
+        text-shadow:
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
+        font-style: normal;
+    }
+
+    .expert-marketing-positions span {
+        font-style: normal;
+        text-shadow: none;
+        font-weight: 550;
+        font-size: 1.6em;
+    }
+    .expert-marketing-positions a {
+        font-style: normal;
+        text-shadow: none;
+    }
+
+    /* style temoins */
+    .temoins-mobile-container {
+        display: none;
+    }
+    .temoins-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    
+    .temoins3 {
+        background-image: url(images/marie-durand.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 600px;
+        background-color: yellowgreen;
+        margin: 10px;
+        position: relative;
+    }
+    
+    .temoins3-position {
+        color: white;
+        font-weight: 510;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        text-align: right;
+    }
+    
+    .temoins3-position :last-child {
+        color:lightgrey;
+    }
+    
+    .temoins4 {
+        background-image: url(images/bernard-dupont.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 600px;
+        background-color: yellow;
+        margin: 10px;
+        position: relative;
+    }
+    
+    .temoins4-position {
+        color: white;
+        font-weight: 510;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        text-align: right;
+    }
+    
+    .temoins4-position :last-child {
+        color:lightgrey;
+    }
+    
+    .temoins-text2 {
+        color: white;
+        position: absolute;
+        top: 290px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    /* style a propos */
+    .container-a-propos ul {
+        overflow: visible; /* les puces overlap en format mobile */
+    }
+    .a-propos-image {
+         background-image: url("images/kevin-richard-a-propos.jpg");
+    }
+
+/* style programmes */
+    .programme-banniere {
+        background-image: url("images/banniere-formation.jpg");
+    }
+
+    .formation-video {
+        width: 70%;
+         height: 35%;
+    }
+}
